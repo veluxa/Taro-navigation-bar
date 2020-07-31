@@ -13,7 +13,7 @@ interface IReact {
     bottom: number
 }
 
-interface ISystemInfo extends Taro.getSystemInfoSync.Return {
+interface ISystemInfo extends Taro.getSystemInfoSync.Result {
     navBarExtendHeight: number,
     navBarHeight: number,
     capsulePosition: IReact,
